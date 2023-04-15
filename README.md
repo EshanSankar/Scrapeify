@@ -1,5 +1,5 @@
 # Scrapeify
-This is a collaboration between Eshan Sankar and Nelson Liang. This was submitted as a Computer Science 30 final project. To view the code, navigate: Scrapeify.zip\testSpotify\app\src\main\java\com\example\testspotify
+This is a collaboration between myself and a peer. This was submitted as a Computer Science 30 final project. To view the code, navigate: Scrapeify.zip\testSpotify\app\src\main\java\com\example\testspotify
 
 # Background
 We are both huge music fans and we wanted a way to quantify our listening habits. Every year, Spotify releases "Wrapped", which is a summary of a user's favourite songs from the past year. However, we did not want to wait 1 full year to judge our music tastes. Instead, we decided to create a program to do that automatically.
