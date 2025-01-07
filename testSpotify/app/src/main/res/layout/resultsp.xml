@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E3E3"
+    android:backgroundTint="#000000"
+    android:foregroundTint="#000000"
+    android:foregroundTintMode="add">
+
+    <TextView
+        android:id="@+id/scoreBig"
+        android:layout_width="322dp"
+        android:layout_height="66dp"
+
+        android:layout_marginTop="4dp"
+        android:background="#FFFAFA"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center"
+        android:text="Loading..."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/albumID"
+        android:layout_width="322dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="4dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Loading..."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreBig" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
